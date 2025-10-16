@@ -571,44 +571,44 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="NanoSockets">
-      <HintPath>Assets\Photon\Fusion\Plugins\NanoSockets\NanoSockets\Dynamic\NanoSockets.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+    <Reference Include="Fusion.Log">
+      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Log.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Fusion.Sockets">
-      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Sockets.dll</HintPath>
+    <Reference Include="Fusion.Common">
+      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Fusion.Realtime">
-      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Realtime.dll</HintPath>
+    <Reference Include="NanoSockets">
+      <HintPath>Assets\Photon\Fusion\Plugins\NanoSockets\NanoSockets\Dynamic\NanoSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Sockets">
+      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Sockets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Fusion.Runtime">
       <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Fusion.Log">
-      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Log.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Fusion.Common">
-      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Common.dll</HintPath>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Realtime">
+      <HintPath>Assets\Photon\Fusion\Assemblies\Fusion.Realtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1300,6 +1300,10 @@
     <ProjectReference Include="Fusion.Unity.csproj">
       <Project>{B96B2FEE-2FF0-A544-A7B4-DF0D68B38D39}</Project>
       <Name>Fusion.Unity</Name>
+    </ProjectReference>
+    <ProjectReference Include="ParrelSync.csproj">
+      <Project>{5E146249-1B6E-D8CF-85FF-F998F8663004}</Project>
+      <Name>ParrelSync</Name>
     </ProjectReference>
     <ProjectReference Include="Fusion.Unity.Editor.csproj">
       <Project>{8DDEDCB2-6406-7E08-2748-DBACBA888AC6}</Project>
